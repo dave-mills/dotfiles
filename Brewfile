@@ -4,43 +4,51 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
 
 # Binaries
-brew 'bash' # Latest Bash version
-brew 'bat' # 'cat' on steroids
-brew 'coreutils' # Those that come with macOS are outdated
-brew 'ffmpeg'
-brew 'gh'
-brew 'git'
-brew 'grep'
-brew 'httpie'
-brew 'mackup'
-brew 'mas' # Mac App Store manager
-brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe'
-brew 'trash' # Manage the Trash bin
-brew 'tree' # List directories in a tree structure
-brew 'youtube-dl'
-brew 'zlib' # Needed for Memcached
-brew 'wget'
+brew install bash
+brew install bat
+brew install coreutils
+brew install ffmpeg
+brew install gh
+brew install git
+brew install grep
+brew install httpie
+brew install mackup
+brew install mas
+brew install pkg-config
+brew install stripe
+brew install trash
+brew install tree
+brew install youtube-dl
+brew install zlib
+brew install wget
 
-# Development
-brew 'php'
-brew 'php@7.3'
-brew 'php@7.2'
-brew 'composer'
-brew 'mysql'
-brew 'nginx'
-brew 'node'
-brew 'redis'
-brew 'yarn'
-brew 'postgresql@9.5'
-brew 'redis'
-brew 'mkcert'
+brew install php
+brew install composer
+brew install mysql
+brew install nginx
+brew install node
+brew install redis
+brew install yarn
+brew install postgresql@9.5
+brew install redis
+brew install mkcert
+brew cask install google-cloud-sdk
+brew install pandoc
+brew install netcdf
+brew install gettext
+brew install gdal
+brew cask install qlcolorcode
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install quicklook-csv
+brew cask install qlstephen
+brew cask install font-lato
+brew cask install font-open-sans
+brew cask install font-source-code-pro-for-powerline
+brew cask install font-source-code-pro
+brew cask install font-source-sans-pro
+brew cask install font-source-serif-pro
 
-# Data
-brew 'pandoc'
-brew 'netcdf'
-brew 'gettext'
-brew 'gdal'
 
 ## Unknown dependencies
 # brew 'gdk-pixbuf'
@@ -88,6 +96,7 @@ cask 'r'
 cask 'rstudio'
 cask 'sourcetree'
 cask 'sublime-text'
+cask 'insomnia'
 
 # Browse and Comms
 cask 'firefox'
@@ -98,27 +107,13 @@ cask 'whatsapp'
 
 
 ## Unused (for now...)
-#cask 'insomnia'
 #cask 'screenflow'
 #cask 'steam'
 #cask 'the-unarchiver'
 #cask 'transmit'
 #cask 'vagrant'
 
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
 
-# Fonts
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
 
 # Mac App Store
 mas 'Dice', id: 1479250666
@@ -137,5 +132,5 @@ mas 'Xcode', id: 497799835
 # mas 'Final Cut Pro', id: 424389933
 
 ## Laptop Only
-# cask 'tripmode'
+# brew cask install tripmode
 # mas 'fruitjuice'
