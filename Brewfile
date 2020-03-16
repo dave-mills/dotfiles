@@ -4,54 +4,54 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
 
 # Binaries
-brew bash
-brew bat
-brew coreutils
-brew ffmpeg
-brew gh
-brew git
-brew grep
-brew httpie
-brew mackup
-brew mas
-brew pkg-config
-brew stripe
-brew trash
-brew tree
-brew youtube-dl
-brew zlib
-brew wget
+brew 'bash'
+brew 'bat'
+brew 'coreutils'
+brew 'ffmpeg'
+brew 'gh'
+brew 'git'
+brew 'grep'
+brew 'httpie'
+brew 'mackup'
+brew 'mas'
+brew 'pkg-config'
+brew 'stripe'
+brew 'trash'
+brew 'tree'
+brew 'youtube-dl'
+brew 'zlib'
+brew 'wget'
 
-brew php
-brew composer
-brew mysql
-brew nginx
-brew node
-brew redis
-brew yarn
-brew postgresql@9.5
-brew redis
-brew mkcert
-cask google-cloud-sdk
-brew pandoc
-brew netcdf
-brew gettext
-brew gdal
-cask qlcolorcode
-cask qlmarkdown
-cask quicklook-json
-cask quicklook-csv
-cask qlstephen
-cask font-lato
-cask font-open-sans
-cask font-source-code-pro-for-powerline
-cask font-source-code-pro
-cask font-source-sans-pro
-cask font-source-serif-pro
+brew 'php'
+brew 'composer'
+brew 'mysql'
+brew 'nginx'
+brew 'node'
+brew 'redis'
+brew 'yarn'
+brew 'postgresql@9.5'
+brew 'redis'
+brew 'mkcert'
+cask 'google-cloud-sdk'
+brew 'pandoc'
+brew 'netcdf'
+brew 'gettext'
+brew 'gdal'
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'qlstephen'
+cask 'font-lato'
+cask 'font-open-sans'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
 
 
 ## Unknown dependencies
-# brew 'gdk-pixbuf'
+# brew 'gdk-pixbuf
 
 # brew 'glib-networking'
 # brew 'gobject-introspection'
@@ -132,5 +132,5 @@ mas 'Xcode', id: 497799835
 # mas 'Final Cut Pro', id: 424389933
 
 ## Laptop Only
-# cask install tripmode
+# cask 'tripmode'
 # mas 'fruitjuice'
