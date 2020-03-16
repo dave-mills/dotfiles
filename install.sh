@@ -11,7 +11,6 @@ fi
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
-brew tap homebrew/bundle
 brew bundle
 
 
@@ -29,7 +28,12 @@ mkdir $HOME/Sites
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Symlinks eslint config
+rm -rf $HOME/.eslintrc
+ln -s $HOME/.dotfiles/.eslintre $HOME/.eslintrc
+
 # Symlink the Mackup config file to the home directory
+rm -rf $HOME/.mackup.cfg
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Set macOS preferences
