@@ -4,50 +4,50 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
 
 # Binaries
-brew install bash
-brew install bat
-brew install coreutils
-brew install ffmpeg
-brew install gh
-brew install git
-brew install grep
-brew install httpie
-brew install mackup
-brew install mas
-brew install pkg-config
-brew install stripe
-brew install trash
-brew install tree
-brew install youtube-dl
-brew install zlib
-brew install wget
+brew bash
+brew bat
+brew coreutils
+brew ffmpeg
+brew gh
+brew git
+brew grep
+brew httpie
+brew mackup
+brew mas
+brew pkg-config
+brew stripe
+brew trash
+brew tree
+brew youtube-dl
+brew zlib
+brew wget
 
-brew install php
-brew install composer
-brew install mysql
-brew install nginx
-brew install node
-brew install redis
-brew install yarn
-brew install postgresql@9.5
-brew install redis
-brew install mkcert
-brew cask install google-cloud-sdk
-brew install pandoc
-brew install netcdf
-brew install gettext
-brew install gdal
-brew cask install qlcolorcode
-brew cask install qlmarkdown
-brew cask install quicklook-json
-brew cask install quicklook-csv
-brew cask install qlstephen
-brew cask install font-lato
-brew cask install font-open-sans
-brew cask install font-source-code-pro-for-powerline
-brew cask install font-source-code-pro
-brew cask install font-source-sans-pro
-brew cask install font-source-serif-pro
+brew php
+brew composer
+brew mysql
+brew nginx
+brew node
+brew redis
+brew yarn
+brew postgresql@9.5
+brew redis
+brew mkcert
+cask google-cloud-sdk
+brew pandoc
+brew netcdf
+brew gettext
+brew gdal
+cask qlcolorcode
+cask qlmarkdown
+cask quicklook-json
+cask quicklook-csv
+cask qlstephen
+cask font-lato
+cask font-open-sans
+cask font-source-code-pro-for-powerline
+cask font-source-code-pro
+cask font-source-sans-pro
+cask font-source-serif-pro
 
 
 ## Unknown dependencies
@@ -132,5 +132,5 @@ mas 'Xcode', id: 497799835
 # mas 'Final Cut Pro', id: 424389933
 
 ## Laptop Only
-# brew cask install tripmode
+# cask install tripmode
 # mas 'fruitjuice'
