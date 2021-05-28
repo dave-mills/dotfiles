@@ -61,10 +61,10 @@ ZSH_THEME="gallois"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-HIST_STAMPS="dd/mm/yyyy"
+HIST_STAMPS="yyyy-mm-dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=$DOTFILES
+# ZSH_CUSTOM=$DOTFILES
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -74,6 +74,8 @@ ZSH_CUSTOM=$DOTFILES
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source $DOTFILES/aliases.zsh
+source $DOTFILES/path.zsh
 
 # User configuration
 
@@ -101,3 +103,6 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export PATH="/usr/local/opt/node@12/bin:$PATH"
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+export PATH="~/Library/Python/3.8/bin:$PATH"

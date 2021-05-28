@@ -1,46 +1,60 @@
 {
     "env": {
-        "es6": true,
         "browser": true,
+        "es6": true,
         "commonjs": true,
         "jquery": true,
-	    "node": true
-        },
+        "node": true
+    },
+    "globals": {
+        "axios": "readonly"
+    },
     "extends": [
         "eslint:recommended",
         "plugin:vue/recommended"
     ],
     "rules": {
-        "indent": ["error", 4],
-        "vue/script-indent": ["error", 4, { "baseIndent": 1 }],
-        "vue/html-indent": ["error", 4, { "baseIndent": 1 }],
+        "indent": [
+            1,
+            4
+        ],
+        "vue/script-indent": [
+            1,
+            4,
+            {
+                "baseIndent": 1
+            }
+        ],
+        "vue/html-indent": [
+            1,
+            4,
+            {
+                "baseIndent": 1
+            }
+        ],
         "no-console": 0,
-        "allowImportExportEverywhere":true
+        "allowImportExportEverywhere": 0,
+        "vue/require-v-for-key": 0,
+        "vue/no-invalid-v-for": 0
     },
     "settings": {
         "html/indent": "+4"
     },
-    "parserOptions":{
-        "sourceType":"module",
-        "ecmaVersion": 2017
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2018
     },
     "overrides": [
         {
-            "files": ["*.vue"],
+            "files": [
+                "*.vue"
+            ],
             "rules": {
-                "indent": "off"
-            }
-        },
-        {
-            "files": ["*.php"],
-            "rules": {
-                "no-inner-declarations": "off",
-                "no-undef": "off",
-                "no-unused-vars": "off"
+                "indent": "off",
+                "vue/no-invalid-v-for": "off",
+                "vue/require-v-for-key": "off"
+
             }
         }
-    ],
-    "plugins" : [
-        "html"
     ]
 }
