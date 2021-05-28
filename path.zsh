@@ -12,4 +12,4 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 # referenced in my aliases.zsh file directly.
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
-export PATH="$HOME/.dotfiles/shortcuts:$PATH"
+export PATH="$HOME/_dotfiles/shortcuts:$PATH"
