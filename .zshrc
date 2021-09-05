@@ -77,6 +77,9 @@ source $ZSH/oh-my-zsh.sh
 source $DOTFILES/aliases.zsh
 source $DOTFILES/path.zsh
 
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

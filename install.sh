@@ -30,7 +30,7 @@ ln -s $HOME/_dotfiles/.zshrc $HOME/.zshrc
 
 # Symlinks eslint config
 rm -rf $HOME/.eslintrc
-ln -s $HOME/_dotfiles/.eslintre $HOME/.eslintrc
+ln -s $HOME/_dotfiles/.eslintrc $HOME/.eslintrc
 
 # Symlink the Mackup config file to the home directory
 rm -rf $HOME/.mackup.cfg
