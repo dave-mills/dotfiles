@@ -1,5 +1,23 @@
 <?php
-return PhpCsFixer\Config::create()
+
+// $finder = Symfony\Component\Finder\Finder::create()
+//     ->in([
+//         __DIR__ . '/src',
+//         __DIR__ . '/tests',
+//         __DIR__ . '/app',
+//         __DIR__ . '/routes',
+//         __DIR__ . '/config',
+//         __DIR__ . '/database',
+//     ])
+//     ->name('*.php')
+//     ->notName('*.blade.php')
+//     ->notName('GitConflictController.php')
+//     ->ignoreDotFiles(true)
+//     ->ignoreVCS(true);
+
+
+
+return (new PhpCsFixer\Config())
 ->setRules([
         'array_indentation' => true,
         'psr0' => false,
