@@ -1,0 +1,25 @@
+ZSH=$HOME/.oh-my-zsh
+DOTFILES=$HOME/dotfiles
+DUMPS=$HOME/Dumps
+
+DEFAULT_USER=`whoami`
+
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="agnoster"
+
+# Uncomment the following line if you want to change the command execution time
+# see 'man strftime' for details.
+HIST_STAMPS="yyyy-mm-dd"
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(zsh-syntax-highlighting)
+
+
+source $ZSH/oh-my-zsh.sh
+source $DOTFILES/aliases.zsh
+source $DOTFILES/path.zsh
+source $DOTFILES/pythonstuff.zsh

@@ -1,5 +1,4 @@
 # Load Homebrew
-## For M1...
 export PATH="/opt/homebrew/bin/brew:$PATH "
 
 # Load Composer tools
@@ -11,10 +10,9 @@ export PATH="$HOME/.node/bin:$PATH"
 # Use project specific binaries before global ones
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
-# Make sure coreutils are loaded before system commands
-# I've disabled this for now because I only use "ls" which is
-# referenced in my aliases.zsh file directly.
-# export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+# Fuck - autocorrect for frustrated devs.
+# eval $(thefuck --alias fk)
+
 
 
 ## M1 version
@@ -23,9 +21,6 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 #export PATH="/usr/local/opt/node@12/bin:$PATH"
 #export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 #export PATH="~/Library/Python/3.8/bin:$PATH"
-
-
-
 #export PATH="$HOME/_dotfiles/shortcuts:$PATH"
 
 ## Homebrew on M1
@@ -36,3 +31,6 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 #export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
 #export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";
 #export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
+
+
+export PATH="$PATH:/Users/Admin/Qt5.14.2/5.14.2/clang_64/bin"
