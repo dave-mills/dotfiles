@@ -2,7 +2,7 @@
 
 echo "Setting up your Mac..."
 ZSH=$HOME/.oh-my-zsh
-DOTFILES=$HOME/Projects/dotfiles
+DOTFILES=$HOME/dotfiles
 
 # Check for Homebrew and install if we don't have it
 #if test ! $(which brew); then
