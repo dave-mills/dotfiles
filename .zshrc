@@ -1,7 +1,7 @@
 ZSH=$HOME/.oh-my-zsh
 DOTFILES=$HOME/dotfiles
 DUMPS=$HOME/Dumps
-
+ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/highlighters
 DEFAULT_USER=`whoami`
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -11,12 +11,14 @@ ZSH_THEME="agnoster"
 # see 'man strftime' for details.
 HIST_STAMPS="yyyy-mm-dd"
 
+source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-syntax-highlighting)
+# plugins=(zsh-syntax-highlighting)
 
 
 source $ZSH/oh-my-zsh.sh
